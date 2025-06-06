@@ -42,9 +42,9 @@ def seed_data():
     global classes
     now = datetime.now(IST)
     classes = [
-        FitnessClass(id=str(uuid4()), name="Yoga", datetime=now.replace(hour=7, minute=0), instructor="Alice", available_slots=5),
-        FitnessClass(id=str(uuid4()), name="Zumba", datetime=now.replace(hour=9, minute=0), instructor="Bob", available_slots=3),
-        FitnessClass(id=str(uuid4()), name="HIIT", datetime=now.replace(hour=18, minute=0), instructor="Carol", available_slots=2),
+        FitnessClass(id=str(uuid4()), name="Yoga", datetime=now.replace(hour=7, minute=0), instructor="Ramesh", available_slots=5),
+        FitnessClass(id=str(uuid4()), name="Zumba", datetime=now.replace(hour=9, minute=0), instructor="Suresh", available_slots=3),
+        FitnessClass(id=str(uuid4()), name="HIIT", datetime=now.replace(hour=18, minute=0), instructor="Rakesh", available_slots=2),
     ]
 
 seed_data()
